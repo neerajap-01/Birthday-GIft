@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffcccc; /* Adjust this color as per your theme */
+}
+
+header {
+  background-color: #ff6b6b; /* Header background color */
+  color: #fff; /* Header text color */
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ff6b6b; /* Link background color */
+  color: #fff; /* Link text color */
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #ff5252; /* Hover background color */
+}
+
+/* Additional styles for the main content */
+.main-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.love-animation {
+  font-size: 36px;
+  color: #ff5252; /* Heart color */
+  animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
